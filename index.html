@@ -77,15 +77,20 @@ var _hmt = _hmt || [];
 	</div>
 
 	
-<form name="f1" onsubmit="return g(this)">
-<table bgcolor="#FFFFFF" style="font-size:9pt;margin:80px auto;">
-<tr height="60"><td valign="top"><img src="http://img.baidu.com/img/logo-137px.gif" border="0" alt="baidu"></td>
-<td>
-<input name=word size="50" maxlength="100" style="margin-top:18px;">
-<input type="submit" value="百度搜索"><br>
-<input name=tn type=hidden value="bds">
-<input name=cl type=hidden value="3">
-<input name=ct type=hidden>
-</td></tr></table>
-</form>
-	
+<!-- 外层 -->
+<div style="text-align:cennter; padding-left:30px">
+<!-- Baidu Button BEGIN --> 
+<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare" > 
+<span class="bds_more">分享收藏到：</span> 
+<a class="bds_qzone">QQ空间</a> 
+<a class="bds_tsina">新浪微博</a> 
+<a class="bds_tqq">腾讯微博</a> 
+<a class="bds_renren">人人网</a> 
+</div> 
+<script type="text/javascript" id="bdshare_js" data="type=tools" ></script> 
+<script type="text/javascript" id="bdshell_js"></script> 
+<script type="text/javascript"> 
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?t=" + new Date().getHours(); 
+</script> 
+<!-- Baidu Button END -->
+</div>
