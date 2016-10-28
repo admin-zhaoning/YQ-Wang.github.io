@@ -4,6 +4,23 @@
 <br>
 
 
+html{
+    /* This image will be displayed fullscreen */
+    background:url('img/10.jpg') no-repeat center center;
+
+    /* Ensure the html element always takes up the full height of the browser window */
+    min-height:100%;
+
+    /* The Magic */
+    background-size:cover;
+}
+body{
+    /* Workaround for some mobile browsers */
+    min-height:100%;
+}                               
+         
+
+
 <form onsubmit="return baiduWithHttps(this)" action="http://www.baidu.com/baidu" target="_blank">
 		  <div align="center">
     <input name="tn" type="hidden" value="SE_zzsearchcode_shhzc78w">
